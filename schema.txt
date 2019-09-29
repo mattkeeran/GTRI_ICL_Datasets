@@ -1,246 +1,246 @@
 SCHEMA:
 -----------------------------------------------------------------------------------------------------------------------------------------------------
-YEAR:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+0. YEAR:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Year
 
 2019	2019
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-MONTH:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+1. MONTH:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Month
 
 1	1
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DAY_OF_MONTH:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+2. DAY_OF_MONTH:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Day of Month
 
 1	31
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DAY_OF_WEEK:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+3. DAY_OF_WEEK:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Day of Week
 
 1	7
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-FL_DATE:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+4. FL_DATE:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Flight Date (yyyymmdd)
 
 2019-01-01	2019-01-31
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-MKT_UNIQUE_CARRIER:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+5. MKT_UNIQUE_CARRIER:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Unique Marketing Carrier Code. When the same code has been used by multiple carriers, a numeric suffix is used for earlier users, for example, PA, PA(1), PA(2). Use this field for analysis across a range of years.
 
 AA	WN
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-MKT_CARRIER_AIRLINE_ID:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+6. MKT_CARRIER_AIRLINE_ID:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 An identification number assigned by US DOT to identify a unique airline (carrier). A unique airline (carrier) is defined as one holding and reporting under the same DOT certificate regardless of its Code, Name, or holding company/corporation.
 
 19393	20436
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-MKT_CARRIER_FL_NUM:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+7. MKT_CARRIER_FL_NUM:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Flight Number
 
 1	9401
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-OP_UNIQUE_CARRIER:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+8. OP_UNIQUE_CARRIER:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Unique Carrier Code. When the same code has been used by multiple carriers, a numeric suffix is used for earlier users, for example, PA, PA(1), PA(2). Use this field for analysis across a range of years.
 
 9E	ZW
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-TAIL_NUM:	<class 'str'>		633,964 NON NULL VALUES		638,649 TOTAL VALUES	0.73 % NULL
+9. TAIL_NUM:	<class 'str'>		633,964 NON NULL VALUES		638,649 TOTAL VALUES	0.73 % NULL
 Tail Number
 
 ['N488HA', 'N481HA']
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-OP_CARRIER_FL_NUM:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+10. OP_CARRIER_FL_NUM:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Flight Number
 
 1	9401
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-ORIGIN_AIRPORT_ID:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+11. ORIGIN_AIRPORT_ID:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Origin Airport, Airport ID. An identification number assigned by US DOT to identify a unique airport.  Use this field for airport analysis across a range of years because an airport can change its airport code and airport codes can be reused.
 
 10135	16218
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-ORIGIN_AIRPORT_SEQ_ID:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+12. ORIGIN_AIRPORT_SEQ_ID:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Origin Airport, Airport Sequence ID. An identification number assigned by US DOT to identify a unique airport at a given point of time.  Airport attributes, such as airport name or coordinates, may change over time.
 
 1013505	1621802
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-ORIGIN_CITY_MARKET_ID:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+13. ORIGIN_CITY_MARKET_ID:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Origin Airport, City Market ID. City Market ID is an identification number assigned by US DOT to identify a city market.  Use this field to consolidate airports serving the same city market.
 
 30070	36101
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-ORIGIN:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+14. ORIGIN:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Origin Airport
 
 ABE	YUM
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-ORIGIN_CITY_NAME:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+15. ORIGIN_CITY_NAME:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Origin Airport, City Name
 
 Aberdeen, SD	Yuma, AZ
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-ORIGIN_STATE_ABR:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+16. ORIGIN_STATE_ABR:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Origin Airport, State Code
 
 AK	WY
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DEST_AIRPORT_ID:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+17. DEST_AIRPORT_ID:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Destination Airport, Airport ID. An identification number assigned by US DOT to identify a unique airport.  Use this field for airport analysis across a range of years because an airport can change its airport code and airport codes can be reused.
 
 10135	16218
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DEST_AIRPORT_SEQ_ID:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+18. DEST_AIRPORT_SEQ_ID:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Destination Airport, Airport Sequence ID. An identification number assigned by US DOT to identify a unique airport at a given point of time.  Airport attributes, such as airport name or coordinates, may change over time.
 
 1013505	1621802
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DEST_CITY_MARKET_ID:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+19. DEST_CITY_MARKET_ID:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Destination Airport, City Market ID. City Market ID is an identification number assigned by US DOT to identify a city market.  Use this field to consolidate airports serving the same city market.
 
 30070	36101
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DEST:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+20. DEST:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Destination Airport
 
 ABE	YUM
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DEST_CITY_NAME:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+21. DEST_CITY_NAME:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Destination Airport, City Name
 
 Aberdeen, SD	Yuma, AZ
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DEST_STATE_ABR:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+22. DEST_STATE_ABR:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Destination Airport, State Code
 
 AK	WY
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DEST_STATE_FIPS:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+23. DEST_STATE_FIPS:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Destination Airport, State Fips
 
 1	78
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DEST_STATE_NM:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+24. DEST_STATE_NM:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Destination Airport, State Name
 
 Alabama	Wyoming
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DEST_WAC:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+25. DEST_WAC:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Destination Airport, World Area Code
 
 1	93
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-CRS_DEP_TIME:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+26. CRS_DEP_TIME:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 CRS Departure Time (local time: hhmm)
 
 1	2359
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DEP_TIME:	<class 'numpy.float64'>		619,550 NON NULL VALUES		638,649 TOTAL VALUES	2.99 % NULL
+27. DEP_TIME:	<class 'numpy.float64'>		619,550 NON NULL VALUES		638,649 TOTAL VALUES	2.99 % NULL
 Actual Departure Time (local time: hhmm)
 
 1.0	2400.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DEP_DELAY:	<class 'numpy.float64'>		619,547 NON NULL VALUES		638,649 TOTAL VALUES	2.99 % NULL
+28. DEP_DELAY:	<class 'numpy.float64'>		619,547 NON NULL VALUES		638,649 TOTAL VALUES	2.99 % NULL
 Difference in minutes between scheduled and actual departure time. Early departures show negative numbers.
 
 -47.0	1690.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DEP_DELAY_NEW:	<class 'numpy.float64'>		619,547 NON NULL VALUES		638,649 TOTAL VALUES	2.99 % NULL
+29. DEP_DELAY_NEW:	<class 'numpy.float64'>		619,547 NON NULL VALUES		638,649 TOTAL VALUES	2.99 % NULL
 Difference in minutes between scheduled and actual departure time. Early departures set to 0.
 
 0.0	1690.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DEP_DEL15:	<class 'numpy.float64'>		619,547 NON NULL VALUES		638,649 TOTAL VALUES	2.99 % NULL
+30. DEP_DEL15:	<class 'numpy.float64'>		619,547 NON NULL VALUES		638,649 TOTAL VALUES	2.99 % NULL
 Departure Delay Indicator, 15 Minutes or More (1=Yes)
 
 0.0	1.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-TAXI_OUT:	<class 'numpy.float64'>		619,253 NON NULL VALUES		638,649 TOTAL VALUES	3.04 % NULL
+31. TAXI_OUT:	<class 'numpy.float64'>		619,253 NON NULL VALUES		638,649 TOTAL VALUES	3.04 % NULL
 Taxi Out Time, in Minutes
 
 0.0	181.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-WHEELS_OFF:	<class 'numpy.float64'>		619,253 NON NULL VALUES		638,649 TOTAL VALUES	3.04 % NULL
+32. WHEELS_OFF:	<class 'numpy.float64'>		619,253 NON NULL VALUES		638,649 TOTAL VALUES	3.04 % NULL
 Wheels Off Time (local time: hhmm)
 
 1.0	2400.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-WHEELS_ON:	<class 'numpy.float64'>		618,710 NON NULL VALUES		638,649 TOTAL VALUES	3.12 % NULL
+33. WHEELS_ON:	<class 'numpy.float64'>		618,710 NON NULL VALUES		638,649 TOTAL VALUES	3.12 % NULL
 Wheels On Time (local time: hhmm)
 
 1.0	2400.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-TAXI_IN:	<class 'numpy.float64'>		618,710 NON NULL VALUES		638,649 TOTAL VALUES	3.12 % NULL
+34. TAXI_IN:	<class 'numpy.float64'>		618,710 NON NULL VALUES		638,649 TOTAL VALUES	3.12 % NULL
 Taxi In Time, in Minutes
 
 0.0	282.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-CANCELLED:	<class 'numpy.float64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+35. CANCELLED:	<class 'numpy.float64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Cancelled Flight Indicator (1=Yes)
 
 0.0	1.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-CANCELLATION_CODE:	<class 'float'>		19,550 NON NULL VALUES		638,649 TOTAL VALUES	96.94 % NULL
+36. CANCELLATION_CODE:	<class 'float'>		19,550 NON NULL VALUES		638,649 TOTAL VALUES	96.94 % NULL
 Specifies The Reason For Cancellation
 
 ['B', 'C']
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DIVERTED:	<class 'numpy.float64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+37. DIVERTED:	<class 'numpy.float64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Diverted Flight Indicator (1=Yes)
 
 0.0	1.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-FLIGHTS:	<class 'numpy.float64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+38. FLIGHTS:	<class 'numpy.float64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Number of Flights
 
 1.0	1.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DISTANCE:	<class 'numpy.float64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+39. DISTANCE:	<class 'numpy.float64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Distance between airports (miles)
 
 31.0	4983.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-CARRIER_DELAY:	<class 'numpy.float64'>		117,144 NON NULL VALUES		638,649 TOTAL VALUES	81.66 % NULL
+40. CARRIER_DELAY:	<class 'numpy.float64'>		117,144 NON NULL VALUES		638,649 TOTAL VALUES	81.66 % NULL
 Carrier Delay, in Minutes
 
 0.0	1638.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-WEATHER_DELAY:	<class 'numpy.float64'>		117,144 NON NULL VALUES		638,649 TOTAL VALUES	81.66 % NULL
+41. WEATHER_DELAY:	<class 'numpy.float64'>		117,144 NON NULL VALUES		638,649 TOTAL VALUES	81.66 % NULL
 Weather Delay, in Minutes
 
 0.0	1416.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-NAS_DELAY:	<class 'numpy.float64'>		117,144 NON NULL VALUES		638,649 TOTAL VALUES	81.66 % NULL
+42. NAS_DELAY:	<class 'numpy.float64'>		117,144 NON NULL VALUES		638,649 TOTAL VALUES	81.66 % NULL
 National Air System Delay, in Minutes
 
 0.0	1447.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-SECURITY_DELAY:	<class 'numpy.float64'>		117,144 NON NULL VALUES		638,649 TOTAL VALUES	81.66 % NULL
+43. SECURITY_DELAY:	<class 'numpy.float64'>		117,144 NON NULL VALUES		638,649 TOTAL VALUES	81.66 % NULL
 Security Delay, in Minutes
 
 0.0	816.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-LATE_AIRCRAFT_DELAY:	<class 'numpy.float64'>		117,144 NON NULL VALUES		638,649 TOTAL VALUES	81.66 % NULL
+44. LATE_AIRCRAFT_DELAY:	<class 'numpy.float64'>		117,144 NON NULL VALUES		638,649 TOTAL VALUES	81.66 % NULL
 Late Aircraft Delay, in Minutes
 
 0.0	1514.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DIV_AIRPORT_LANDINGS:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+45. DIV_AIRPORT_LANDINGS:	<class 'numpy.int64'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Number of Diverted Airport Landings
 
 0	9
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DIV_ARR_DELAY:	<class 'numpy.float64'>		1,061 NON NULL VALUES		638,649 TOTAL VALUES	99.83 % NULL
+46. DIV_ARR_DELAY:	<class 'numpy.float64'>		1,061 NON NULL VALUES		638,649 TOTAL VALUES	99.83 % NULL
 Difference in minutes between scheduled and actual arrival time for a diverted flight reaching scheduled destination.  The ArrDelay column remains NULL for all diverted flights.
 
 24.0	1557.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DIV_DISTANCE:	<class 'numpy.float64'>		1,450 NON NULL VALUES		638,649 TOTAL VALUES	99.77 % NULL
+47. DIV_DISTANCE:	<class 'numpy.float64'>		1,450 NON NULL VALUES		638,649 TOTAL VALUES	99.77 % NULL
 Distance between scheduled destination and final diverted airport (miles).  Value will be 0 for diverted flight reaching scheduled destination.
 
 0.0	2586.0
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-DUP:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
+48. DUP:	<class 'str'>		638,649 NON NULL VALUES		638,649 TOTAL VALUES	0.00 % NULL
 Duplicate flag marked Y if the flight is swapped based on Form-3A data
 
 N	N
