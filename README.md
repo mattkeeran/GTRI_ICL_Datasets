@@ -6,4 +6,4 @@ Before attending the in-person interview, we at GTRI would like to give you the 
 
 The only requirement within this exercise is to use python (2 or 3). You are free to use any graphic library (matplotlib, seaborn, etc.)
 
-Please fork this repository and push your code to your own personal repository for review. Be sure to add comments within your code to explain your thought process and steps taken}
+Please fork this repository and push your code to your own personal repository for review. Be sure to add comments within your code to explain your thought process and steps taken
